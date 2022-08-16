@@ -1,4 +1,7 @@
+require 'pry'
 def plus_two(num)
-	num + 2
+	if num.class == Integer
+		return num + 2
+	end
 	num
 end
